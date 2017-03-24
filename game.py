@@ -13,7 +13,7 @@ class Game(object):
     def get_input(self):
         """ Asks for a string input from the player to get their move."""
 
-        answer = str(input("Please choose rock, paper, or scissors: ").lower())
+        answer = str(input("Please choose rock, paper, or scissors: ")).lower()
         if answer == "rock" or answer == "r":
             self.answer = 0
         elif answer == "paper" or answer == "p":
